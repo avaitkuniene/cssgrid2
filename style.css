@@ -1,0 +1,184 @@
+/* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+/* rozine - #FF5740 */
+/* sviesi rozine fonui - #FBD7B5 */
+/* melyna tekstui - #0C2461 */
+
+body {
+    margin: 0;
+}
+header {
+    margin: 10px;
+}
+.fa {
+    color: #FF5740;
+    padding: 5px;
+}
+.virsus {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0C2461;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 60px;
+    border-bottom: 2px solid #F1F8FD;
+}
+.virsus div:first-child {
+    align-self: center;
+}
+header div>span {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social>a {
+    border: 1px solid #ff5740;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    color: #ff5740;
+    font-size: 15px;
+    margin:10px
+}
+.social>a:hover {
+    color: white;
+    background-color:  #ff5740;
+    transition: 0.5s;
+}
+.social {
+    align-self: center;
+    justify-self: right;
+}
+
+.apacia {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 60px;
+    align-items: center;
+    justify-items: center;
+}
+nav>a {
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    transition: 0.5s;
+}
+nav>a:hover {
+    color: #FF5740;
+}
+button {
+    background-color: #FF5740;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #FF5740;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    color: #FF5740;
+    transition: 0.5s;
+}
+.rozinis {
+    height: 80vh;
+    background-color: #FBD7B5;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.rozinis .kaire {
+    margin-left: 20px
+}
+.rozinis .kaire div:first-child {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FB4F31;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15% 0 0 0;
+}
+.rozinis .kaire div:nth-child(2) {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0C2461;
+    font-size: 30px;
+}
+.rozinis .kaire div:nth-child(3) {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3C6382;
+}
+.rozinis .kaire div:nth-child(4) {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0C2461;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.desine {
+    align-self: center;
+    justify-self: left;
+}
+.desine>img {
+    height: 370px;
+    width: 350px;
+}
+
+.baltas {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.kaire2 {
+    align-self: center;
+    justify-self: right;
+}
+.kaire2>img {
+    height: 330px;
+    width: 450px;
+}
+.desine2 {
+    margin-left: 55px;
+}
+.about {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF5740;  
+    margin-top: 10%;  
+    margin-bottom: 8px;
+}
+.bold{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #0C2461;
+    margin-bottom: 20px;
+}
+.desine2 div:nth-child(3) {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3C6382;
+    margin-bottom: 16px;
+}
+.list-kaire, .list-desine {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0C2461;
+}
+#list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
